@@ -122,7 +122,8 @@ private:
       */
 
       // Store CameraInfo RegionOfInterest information
-      if(config.video_mode == "format7_mode0" || config.video_mode == "format7_mode1" || config.video_mode == "format7_mode2")
+//      if(config.video_mode == "format7_mode0" || config.video_mode == "format7_mode1" || config.video_mode == "format7_mode2")
+      if (false)
       {
         roi_x_offset_ = config.format7_x_offset;
         roi_y_offset_ = config.format7_y_offset;
